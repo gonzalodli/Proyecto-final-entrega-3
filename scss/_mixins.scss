@@ -1,0 +1,89 @@
+
+.textos{
+	font: $mainfont;
+	font-size: $textmd;
+	font-weight: $textregular;
+	line-height: 4rem;
+	padding-bottom: 45px;
+}
+
+.textosStart{
+	@extend .textos;
+	text-align: left;
+}
+
+.textoSubrayado{
+	@extend .textos;
+	text-decoration: underline;
+	padding-top: 10px
+}
+
+.textoLg{
+	@extend .textos;
+	font-size: $textlg;
+	font-weight: $textbold;
+}
+
+
+
+@mixin displayFlex($justificado, $alineaciont, $direccion){
+	display: flex;
+	justify-content:$justificado;
+	text-align:$alineaciont;
+	flex-direction:$direccion;
+
+}
+
+
+$colors:(
+	'uno': #FDF4F4,
+	'dos': #CCCCCC,
+	'tres': #393838,
+	'cuatro': #191919,
+	'cinco': #FBEFC7,
+	'seis': #FCC83C,
+	'siete': #58F96F,
+	'ocho': #F32B2B,
+	'nueve': #A26309,);
+
+@mixin medias($breakpoint){
+	@if $breakpoint == sm{
+		@media (min-width: 320px){
+			@content;
+			
+		}
+	}
+	@if $breakpoint == md{
+		@media (min-width: 600px){
+			@content;
+			
+		}
+	}
+	@if $breakpoint == lg{
+		@media (min-width: 1200px){
+			@content;
+			
+		}
+	}
+}
+
+p{
+	@include medias (sm){
+		font-family: $mainfont;
+		color: $black;
+		font-size: $textsm;
+		line-height: 2em;
+	}
+	@include medias (md){
+		font-family: $mainfont;
+		color: $black;
+		font-size: $textmd;
+		line-height: 2.4em;
+	}
+	@include medias (lg){
+		font-family: $mainfont;
+		color: $black;
+		font-size: $textmd;
+		line-height: 2.8em;
+	}
+}

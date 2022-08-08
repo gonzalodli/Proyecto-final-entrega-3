@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2? family= Ubuntu:wght@300;500;700 & display=swap");
+.textos, .textoLg, .textoSubrayado, .textosStart {
+  font: "ubuntu", sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 4rem;
+  padding-bottom: 45px;
+}
+
+.textosStart {
+  text-align: left;
+}
+
+.textoSubrayado {
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+.textoLg {
+  font-size: 4.3em;
+  font-weight: 700;
+}
+
+@media (min-width: 320px) {
+  p {
+    font-family: "ubuntu", sans-serif;
+    color: #181818;
+    font-size: 2em;
+    line-height: 2em;
+  }
+}
+@media (min-width: 600px) {
+  p {
+    font-family: "ubuntu", sans-serif;
+    color: #181818;
+    font-size: 3em;
+    line-height: 2.4em;
+  }
+}
+@media (min-width: 1200px) {
+  p {
+    font-family: "ubuntu", sans-serif;
+    color: #181818;
+    font-size: 3em;
+    line-height: 2.8em;
+  }
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/bgimage.jpg);
+  background-repeat: repeat;
+}
+
+nav {
+  background-color: rgba(236, 220, 179, 0.8);
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "ubuntu", sans-serif;
+  font-size: 3em;
+  line-height: 2.3rem;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  margin: 15px;
+}
+
+h1 {
+  font: "ubuntu", sans-serif;
+  font-size: 4.3em;
+  font-weight: 700;
+  line-height: 4rem;
+  padding-bottom: 45px;
+}
+
+h2 {
+  font: "ubuntu", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+p {
+  font-family: "ubuntu", sans-serif;
+  color: #181818;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+main {
+  width: 95%;
+  padding: 30px;
+  margin: 12px auto;
+}
+main img {
+  width: 60%;
+  padding: 10px auto;
+}
+
+#botonera img {
+  width: 280px;
+}
+#botonera img:hover {
+  filter: opacity(0.9);
+  transform: scale(1.2);
+  transition: 4s;
+}
+@media (min-width: 280px) and (max-width: 340px) {
+  #botonera img {
+    width: 190px;
+  }
+}
+
+.botonera ul li a {
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: #5B5959;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 10px;
+  transition: background-size 0.8s;
+}
+@media (min-width: 280px) and (max-width: 840px) {
+  .botonera ul li a {
+    font-size: 1.8rem;
+  }
+}
+.botonera ul li a:hover {
+  color: black;
+  font-weight: 500;
+  background-size: 100% 2px;
+}
+
+.bg-cream {
+  background-color: #FBEFC7;
+}
+
+.bg-degrade {
+  background: linear-gradient(to top, #D68A31, #f0cf93);
+  opacity: 0.9;
+}
+
+.bgSend {
+  background-color: #58F96F;
+  padding: 5px;
+}
+
+.bgCancel {
+  background-color: #F32B2B;
+  padding: 5px;
+}
+
+.bgBlack {
+  background-color: #191919;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.caja {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgba(236, 220, 179, 0.8);
+}
+
+.item__exp {
+  border-radius: 8px;
+  transition: transform 0.1s;
+  margin: 10px auto;
+}
+.item__exp:hover {
+  filter: opacity(0.9);
+  transform: translate(15px, -10px);
+  transition: 2s;
+  margin: 10px auto;
+}
+
+#footer img {
+  padding: 25px;
+}
+
+.formulariomd {
+  font: "ubuntu", sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 6rem;
+}
+
+.formulariosm {
+  font: "ubuntu", sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

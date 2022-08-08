@@ -1,0 +1,24 @@
+index.html:
+Descripción: Agregué etiquetas meta con descripción (Donde conseguir las zapatillas mas buscadas del país, te dejamos la ubicacion especifica de los locales u otros sitios web donde conseguirlas)
+Keywords: zapatillas, outfits, sneakerhead, running, lifestyle, basquet, nike, adidas, jordan, new balance, reebok
+Header: h1 "Donde comprar zapatillas en Argentina".
+
+nosotros.html:
+Descripción: Agregué etiquetas meta con descripción (Te contamos un poco del propósito de nuestra página la cual esta dedicada a la cultura sneakerhead de argentina y el mundo. Queremos traerte los mejores lanzamientos nacionales, donde encontrarlos, joyitas que se encuentran en el mundo del sneakergame)
+Keywords: zapatillas, nike, jordan
+Header: h1 "Nosotros".
+
+novedades.html:
+Descripción: Agregué etiquetas meta con descripción (Últimos lanzamientos de zapatillas en Argentina, modelos mas importantes todavía disponibles. Podes enterarte de los lanzamientos mundiales mas importantes que llegan a nuestro país!)
+Keywords: zapatillas, running, basquet, nike, adidas, jordan, new balance
+Header: h1 "Ultimos lanzamientos de argentina".
+
+contacto.html:
+Descripción: Agregué etiquetas meta con descripción (En esta página tenes la posibilidad de contactarte con nosotros para que sepamos cuales son los intereses de los visitantes y asi poder actualizar nuestro contenido. También tenes la posibilidad de entrar a nuestras redes que te dejamos en el pie)
+Keywords: zapatillas, running, lifestyle, basquet, nike, adidas, jordan, new balance, reebok
+Header: h1 "Contacto".
+
+nosotros.html:
+Descripción: Agregué etiquetas meta con descripción (Aca podes encontrar fotos de las mejores zapatillas actuales en el mercado internacional. Podes verlas en outfits o en capturas detalladas y todas con la descripción del modelo que corresponde)
+Keywords: zapatillas, outfits, sneakerhead, running, lifestyle, basquet, nike, adidas, jordan, new balance, reebok
+Header: h1 "Galeria TOP".
